@@ -11,11 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/electric")
-public class MeterEntryController {
+public class ElectricMeterEntryController {
 	
 	@GetMapping({"/kwhUnits/{kwh}", "/kwhUnits/{kwh}/{remark}"})
 	public void insertMeterReading(@PathVariable(value = "kwh") Double kwh, @PathVariable Optional<String> remark) {
 		
+		if(remark.isPresent()) {
+			
+		}
 		
 	}
 	

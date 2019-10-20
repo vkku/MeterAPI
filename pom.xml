@@ -40,7 +40,6 @@
 		  <groupId>com.sybit</groupId>
 		  <artifactId>airtable.java</artifactId>
 		  <version>0.2.0</version>
-		  <type>pom</type>
 		</dependency>
 
 	</dependencies>
